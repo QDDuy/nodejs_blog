@@ -1,0 +1,34 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js ",
+    "watch":"node-sass --watch src/resource/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QDDuy/nodejs_blog.git"
+  },
+  "keywords": [
+    "quachduy",
+    "blog"
+  ],
+  "author": "duyqd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QDDuy/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/QDDuy/nodejs_blog#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.3",
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
